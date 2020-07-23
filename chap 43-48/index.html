@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chap 43-48 </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <h3> Task 1</h3>
+    <button>
+        <a href="#" onclick="link()">click here</a>
+    </button>
+    <br><br><br>
+
+    
+    <h3> Task 2</h3>
+
+    <h1>
+        Mobile Phones
+    </h1>
+    <div>
+        <img class="img" onclick="pic()" src="images/pic 1.jpg">
+        <img class="img" onclick="pic()" src="images/pic 2.jpg">
+        <img class="img" onclick="pic()" src="images/pic 3.jpg">
+        <img class="img" onclick="pic()" src="images/pic 4.jpg">
+    </div>
+
+    <div>
+        <span class="span">  Samsung </span>
+        <span class="span1"> Samsung </span>
+        <span class="span2"> Samsung </span>
+        <span class="span3"> Samsung </span>
+
+    </div>
+    <br><br><br><br>
+
+
+    <table cellpadding=5 style="margin: auto;">
+
+        <h3 class="text-center"> Task 3 </h3>
+        <tr>
+            <td>Index</td>
+            <td>Name</td>
+            <td>Class</td>
+        </tr>
+
+        <tr id="tr1">
+            <td>1</td>
+            <td>Abdullah</td>
+            <td>Graduate</td>
+            <td><button onclick="Delete1()">Delete</button></td>
+        </tr>
+
+
+        <tr id="tr2">
+            <td>2</td>
+            <td>Tahir</td>
+            <td>Masters</td>
+            <td><button onclick="Delete2()">Delete</button></td>
+
+        </tr>
+        <tr id="tr3">
+            <td>3</td>
+            <td>Zubair</td>
+            <td>MBA</td>
+            <td><button onclick="Delete3()">Delete</button></td>
+
+        </tr>
+
+        <tr id="tr4">
+            <td>4</td>
+            <td>Rufi</td>
+            <td>Masters</td>
+            <td><button onclick="Delete4()">Delete</button></td>
+        </tr>
+
+        <tr id="tr5">
+            <td>5</td>
+            <td>Salam</td>
+            <td>intermediate</td>
+            <td><button onclick="Delete5()">Delete</button></td>
+
+        </tr>
+
+
+
+    </table>
+    <br><br><br><br>
+
+
+    <h3>Task 4</h3>
+    <img onmouseover="changeImages()" onmouseout="beforeImages()" id="pic" src="images/pic 2.jpg">
+    <br><br><br><br>
+
+
+    <h3>Task 5</h3>
+    <button onclick="buttonclick()">Increase</button>
+    <button onclick="buttonclick1()">Decrease</button>
+    <input type="text" size="5" id="inc" value="0"> </input>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
